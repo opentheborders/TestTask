@@ -5,21 +5,15 @@ import java.util.OptionalDouble;
 
 public class Main {
 
-     static void sort(int[] array) {
+    public static void main(String[] args) {
 
-         for(int i = array.length-1 ; i > 0 ; i--){
+        for (int i = 2; i <= 100; i++) {
+            for (int j = 2; j <= i; j++) {
+                if (j < i  && i%j == 0) {
+                    break;
+                } else
+                if (i % j == 0) {
+        System.out.println(i);
 
-             for(int j = 0 ; j < i ; j++){
-                if( array[j] > array[j+1] ){
-                int tmp = array[j];
-                array[j] = array[j+1];
-                array[j+1] = tmp;
-            }
-            }}
-            }
-                public static void main(String[] args) {
+        }}}}}
 
-                    int [] array = {5,4,8,7,9,3};
-                    sort(array);
-                    System.out.println(Arrays.toString(array));
-                }}
