@@ -1,9 +1,18 @@
+/*
+1.3. Удаление из массива
+
+Задача:
+
+Дан массив целых чисел и ещё одно целое число. Удалите все вхождения этого числа из массива (пропусков быть не должно).
+* */
+
+
 package com.company;
 
 import java.util.Arrays;
 import java.util.OptionalDouble;
 
-public class Main {
+class CheckIt {
     public static int[] compare(int array[], int number, int n){
 
             int counter = 0;
