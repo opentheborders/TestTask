@@ -13,9 +13,10 @@ class Filtering {
 
     public static void main(String[] args) {
 
+  // Initializing
   int n = 5;
   double []array = new double [n];
 
   new ArrayUpdate(array);
-
-    }}
+                  }
+                }
