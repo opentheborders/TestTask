@@ -1,9 +1,16 @@
+/*1.2. Поиск простых чисел
+
+Задача:
+
+Напишите программу, которая выводит на консоль простые числа в промежутке от [2, 100].
+Используйте для решения этой задачи оператор "%" (остаток от деления) и циклы.
+*/
 package com.company;
 
 import java.util.Arrays;
 import java.util.OptionalDouble;
 
-public class Main {
+public class SimpleNumbers {
 
     public static void main(String[] args) {
 
