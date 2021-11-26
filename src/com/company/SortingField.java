@@ -1,9 +1,19 @@
+/*
+3.0. Двоичный поиск
+
+Задача:
+
+Напишите метод, который проверяет, входит ли в массив заданный элемент или нет.
+Используйте перебор и двоичный поиск для решения этой задачи.
+Сравните время выполнения обоих решений для больших массивов (например, 100000000 элементов).
+ */
+
 package com.company;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class Main {
+public class SortingField {
 
     public static void brutForce(int[] array, int number) {
 
