@@ -27,4 +27,3 @@ class Filtering {
         OptionalDouble avg = Arrays.stream(array).average();
         System.out.println(max + "\n" + min + "\n" + avg);
     }}
-
