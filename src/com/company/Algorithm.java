@@ -2,8 +2,11 @@ package com.company;
 
 import java.util.Arrays;
 import java.util.OptionalDouble;
+/*
+1.1. Реализуйте алгоритм сортировки пузырьком для сортировки массива
+ */
 
-public class Main {
+public class Algorithm {
 
      static void sort(int[] array) {
 
