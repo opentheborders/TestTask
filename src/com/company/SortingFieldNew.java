@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Arrays;
 
-public class Main {
+public class SortingFieldNew {
 
     public static void brutForce(int[] array, int number) {
 
