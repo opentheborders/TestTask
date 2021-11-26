@@ -6,21 +6,23 @@ import java.util.OptionalDouble;
 public class ArrayUpdate {
 
     ArrayUpdate(double []array){
-        fill(array);
-        filter(array);
+            fill(array);
+            filter(array);
       }
 
       public static double[] fill(double [] array){
           for (int i = 0; i < array.length; i++) {
-              array[i] =  Math.random();
-          } return array;
+                 array[i] =  Math.random();
+          }
+          return array;
       }
 
-        public static void filter(double []array) {
-        double max = Arrays.stream(array)
+      public static void filter(double []array) {
+
+          double max = Arrays.stream(array)
                 .reduce((a, b) -> Math.max(a, b))
                 .getAsDouble();
-        double min = Arrays.stream(array)
+          double min = Arrays.stream(array)
                 .reduce((a, b) -> Math.min(a, b))
                 .getAsDouble();
 
