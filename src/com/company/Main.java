@@ -2,8 +2,14 @@ package com.company;
 
 import java.util.Arrays;
 import java.util.OptionalDouble;
+/*
+1.0. Максимальное, минимальное и среднее значение
+Задача:
+Заполните массив случайным числами и выведите максимальное, минимальное и среднее значение.
+Для генерации случайного числа используйте метод Math.random(), который возвращает значение в промежутке [0, 1].
+ */
 
-public class Main {
+class Filtering {
 
     public static void main(String[] args) {
         int n = 50;
@@ -20,5 +26,5 @@ public class Main {
                 .getAsDouble();
         OptionalDouble avg = Arrays.stream(array).average();
         System.out.println(max + "\n" + min + "\n" + avg);
-    }};
+    }}
 
