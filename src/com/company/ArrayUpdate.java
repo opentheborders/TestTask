@@ -34,5 +34,4 @@ public class ArrayUpdate {
           System.out.println(max + "\n" + min + "\n" + avg);
       }
 
-
 }

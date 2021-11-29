@@ -14,7 +14,6 @@ class Filtering {
         // Initializing
         int n = 5;
         double []array = new double [n];
-
         new ArrayUpdate(array);
     }
 }
