@@ -17,7 +17,7 @@ public class SortingFieldNew {
         for (int i = 1; i<array.length; i++){
             array[i] = i;
         }
-
+        
         long startTime2 = System.currentTimeMillis();
         BrutForce bF = new BrutForce();
         System.out.println(bF.search(number, array));

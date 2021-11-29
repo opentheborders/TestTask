@@ -17,6 +17,7 @@ public class BinarySearch implements Searchable{
             last = array[middle-1];
             middle = array[last - first];
             return search(number, array);
+
         } else
 
         if(number > middle){
