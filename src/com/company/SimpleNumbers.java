@@ -20,7 +20,10 @@ public class SimpleNumbers {
                     break;
                 } else
                 if (i % j == 0) {
-        System.out.println(i);
-
-        }}}}}
+                    System.out.println(i);
+                }
+            }
+        }
+    }
+}
 
