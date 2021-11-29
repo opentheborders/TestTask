@@ -10,13 +10,11 @@ import java.util.OptionalDouble;
  */
 
 class Filtering {
-
     public static void main(String[] args) {
+        // Initializing
+        int n = 5;
+        double []array = new double [n];
 
-  // Initializing
-  int n = 5;
-  double []array = new double [n];
-
-  new ArrayUpdate(array);
-                  }
-                }
+        new ArrayUpdate(array);
+    }
+}

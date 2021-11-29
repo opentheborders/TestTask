@@ -7,9 +7,9 @@ import java.util.OptionalDouble;
 public class ArrayUpdate {
 
     ArrayUpdate(double []array){
-            fill(array);
-            filter(array);
-      }
+        fill(array);
+        filter(array);
+    }
 
 //Filling an array with random numbers
 
@@ -23,16 +23,16 @@ public class ArrayUpdate {
 //Searching of minimum, maximum, average
 
       public static void filter(double []array) {
-
           double max = Arrays.stream(array)
-                .reduce((a, b) -> Math.max(a, b))
-                .getAsDouble();
+                  .reduce((a, b) -> Math.max(a, b))
+                  .getAsDouble();
           double min = Arrays.stream(array)
-                .reduce((a, b) -> Math.min(a, b))
-                .getAsDouble();
+                  .reduce((a, b) -> Math.min(a, b))
+                  .getAsDouble();
           OptionalDouble avg = Arrays.stream(array).average();
 
-        System.out.println(max + "\n" + min + "\n" + avg);
-    }
+          System.out.println(max + "\n" + min + "\n" + avg);
+      }
+
 
 }
