@@ -22,11 +22,12 @@ public class ElementWeight {
         int n = IntStream.of(w).sum();
         int array[] = new int[n];
         int iterator = 0;
-        for(int i = 0; i<w.length; i++){
+        for(int i = 0; i<w.length; i++) {
+
             for(int j = 0; j<w[i]; j++){
                 array[iterator++] = v[i];
             }
-    }
+        }
         System.out.println(Arrays.toString(array));
         int random = (int) (Math.random() * (array.length-1));
         System.out.println(array[random]);
