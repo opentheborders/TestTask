@@ -2,6 +2,6 @@ package com.company;
 
 public interface Searchable {
 
-     void search(int number, int[]array);
+     int search(int number, int[]array);
 
 }
