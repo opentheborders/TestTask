@@ -17,11 +17,12 @@ class CheckIt {
 
             int counter = 0;
         for(int i=0; i< array.length; i++){
-            {
+
                 if (array[i] == number) {
-                  counter++;
+                    counter++;
                 } else array[i - counter]  = array[i];
-            }}
+
+        }
 
         int []array1 = new int [n-counter];
         for(int i=0; i<array1.length; i++){
@@ -31,11 +32,11 @@ class CheckIt {
         return array1;
     }
     public static void main(String[] args) {
-
         int []array = {4,5,2,8,9,1,5,8};
         int n = array.length;
         int number = 5;
         compare(array,number,n);
 
-        }}
+    }
+}
 
