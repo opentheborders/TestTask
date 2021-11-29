@@ -12,27 +12,23 @@ import java.util.Arrays;
 public class SortingFieldNew {
 
     public static void main(String[] args) {
-
         int number = 567;
         int []array = new int[10000];
         for (int i = 1; i<array.length; i++){
             array[i] = i;
         }
 
-
         long startTime2 = System.currentTimeMillis();
         BrutForce bF = new BrutForce();
-        bF.search(number, array);
+        System.out.println(bF.search(number, array));
         long endTime2 = System.currentTimeMillis();
         System.out.println("Total time  " + (endTime2-startTime2));
 
         long startTime1 = System.currentTimeMillis();
         BinarySearch bS = new BinarySearch();
-        bS.search(number, array);
+        System.out.println(bS.search(number, array));
         long endTime1 = System.currentTimeMillis();
         System.out.println("Total time  " + (endTime1-startTime1));
-
-
 
     }
 }
